@@ -1,0 +1,1 @@
+The file structure must be the same as in the examples provided. It's about the headers and the order in which they are presented in the form of JSON and CSV.

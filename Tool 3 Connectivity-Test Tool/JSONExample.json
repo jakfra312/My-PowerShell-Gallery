@@ -1,0 +1,13 @@
+{
+	"Comps": [
+	{
+	"Hostname": "Comp01",
+	"IPAddress": "10.0.0.1"
+	},
+	{
+	"Hostname": "Compo02",
+	"IPAddress": "10.0.0.2"
+	}
+
+]
+}
