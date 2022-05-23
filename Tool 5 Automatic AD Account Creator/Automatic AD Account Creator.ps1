@@ -77,7 +77,7 @@ $BTNTwo.Add_Click{
     $FromListView = $ListViewOne.Items
     $MailPass = Get-Content C:\Users\Administrator\Documents\passtest.txt 
     $MailPass = ConvertTo-SecureString -String $MailPass -Force -AsPlainText
-    $From = 'bagienko.jankos@gmail.com' 
+    $From = 'testpowershell@gmail.com' 
     $creden = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $From, $MailPass
     Foreach($Item in $FromListView){
         $FullName = "$($Item.Name) $($Item.Surname)"
